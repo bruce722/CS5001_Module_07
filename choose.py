@@ -1,10 +1,10 @@
-def choose(n, k):
+def choose(k, n):
     if k == 0:
         return 1
     elif n < k:
         return 0
     else:
-        return choose(n - 1, k - 1) + choose(n - 1, k)
+        return choose(k - 1, n - 1) + choose(k, n - 1)
 
 
 if __name__ == '__main__':
