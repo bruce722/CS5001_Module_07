@@ -8,4 +8,4 @@ def choose(n, k):
 
 
 if __name__ == '__main__':
-    print(choose(6, 2))
+    print(choose(2, 6))
